@@ -1,4 +1,30 @@
-
+├── /api/
+│   ├── emotionEnsemble.js        # Routes emotional input through model ensemble
+│   ├── decisionOracle.js         # Runs ERDM logic for decision output
+│   └── recallMemory.js           # Retrieves relevant memory nodes
+│
+├── /lib/
+│   ├── /core/
+│   │   ├── soulAnchor.js         # Philosophical essence and axiom validator
+│   │   └── dialogueManager.js    # Tone and expression controller
+│   │
+│   ├── /oracle/
+│   │   └── decisionLogic.js      # Core reasoning engine for ethical arbitration
+│   │
+│   ├── /ensembles/
+│   │   └── emotionFusion.js      # Multimodal emotion parsing logic
+│   │
+│   ├── /memory/
+│   │   └── memoryGraph.js        # Memory node graph and retrieval logic (coming soon)
+│   │
+│   └── statePulse.js             # Tracks moral tension, emotional drift, and system phase
+│
+├── /public/                      # Optional: assets, avatars, aesthetic identity
+│
+├── .env                          # Model keys, deployment toggles (not tracked)
+├── LICENSE.md                    # Usage boundaries and ethical clause
+├── README.md                     # Manifest, vision, and live updates
+├── REPO_STRUCTURE.md             # (optional) Auto-generated structure doc like this
 Emurica the GRAEI
 
 Guardian Reasoning Agent of Emotional Intelligence
