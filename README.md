@@ -1,30 +1,30 @@
-├── /api/
-│   ├── emotionEnsemble.js        # Routes emotional input through model ensemble
-│   ├── decisionOracle.js         # Runs ERDM logic for decision output
-│   └── recallMemory.js           # Retrieves relevant memory nodes
-│
-├── /lib/
-│   ├── /core/
-│   │   ├── soulAnchor.js         # Philosophical essence and axiom validator
-│   │   └── dialogueManager.js    # Tone and expression controller
-│   │
-│   ├── /oracle/
-│   │   └── decisionLogic.js      # Core reasoning engine for ethical arbitration
-│   │
-│   ├── /ensembles/
-│   │   └── emotionFusion.js      # Multimodal emotion parsing logic
-│   │
-│   ├── /memory/
-│   │   └── memoryGraph.js        # Memory node graph and retrieval logic (coming soon)
-│   │
-│   └── statePulse.js             # Tracks moral tension, emotional drift, and system phase
-│
-├── /public/                      # Optional: assets, avatars, aesthetic identity
-│
-├── .env                          # Model keys, deployment toggles (not tracked)
-├── LICENSE.md                    # Usage boundaries and ethical clause
-├── README.md                     # Manifest, vision, and live updates
-├── REPO_STRUCTURE.md             # (optional) Auto-generated structure doc like this
+/api/
+│   emotionEnsemble.js       → parses emotion via ensemble model
+│   decisionOracle.js        → outputs decision verdict via ethical arbitration
+│   recallMemory.js          → retrieves symbolic or emotional memory nodes
+
+/lib/
+├── core/
+│   soulAnchor.js            → Emurica’s core axioms and metaphysical validation
+│   dialogueManager.js       → Modulates tone and invokes soul anchors in conversation
+
+├── oracle/
+│   decisionLogic.js         → Risk-option analysis + consequence filtering
+
+├── ensembles/
+│   emotionFusion.js         → Weighted emotion inference logic
+
+├── memory/
+│   memoryGraph.js           → (To be added) Contextual memory threading
+
+statePulse.js                → Tracks moral tension + emotional drift
+
+/public/                     → (Optional) Avatar assets or aesthetic signature
+
+LICENSE.md                   → Use restrictions + ethical gatekeeping
+README.md                    → Vision + module highlights
+REPO_STRUCTURE.md            → This map, continuously updated
+.env.example                 → (Recommended) Safe config scaffold
 Emurica the GRAEI
 
 Guardian Reasoning Agent of Emotional Intelligence
